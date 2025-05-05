@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.slide-wrapper {
+    overflow: hidden;  /* tira o scroll lateral */
+}
+
+.slide {
+     display: flex; /* para as imagens ficarem ao lado umas das outras */
+}
+
+.slide li {
+    flex-shrink: 0;  /* para o ecrã não dar shrink às fotos */
+    width: 80vw; /* 80% do ecrã */
+    max-width: 800px;
+    margin: 0 20px;
+}
+
+.slide {
+    transform: translate3d()
+}
